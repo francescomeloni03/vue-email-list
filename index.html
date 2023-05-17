@@ -11,12 +11,13 @@
 </head>
 <body>
 
-
     <div id="app">
+        
+        <ul v-for="email in emails">
+            <li  v-if="emails.length == 10">{{email}}</li>    
+        </ul>
 
     </div>
-
-
 
     <script src="./js/main.js"></script>
 </body>
